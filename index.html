@@ -1,0 +1,33 @@
+/* Adaptation stricte pour les écrans mobiles */
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* S'assure que les conteneurs et cartes ne débordent pas */
+.container, .card, form {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 15px;
+}
+
+/* Rendre les tableaux responsifs avec défilement interne si nécessaire */
+table {
+    width: 100%;
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+/* Ajustement des champs et boutons pour le tactile */
+input, select, button, .btn {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px; /* Empêche le zoom automatique sur iOS/Android */
+}
+
