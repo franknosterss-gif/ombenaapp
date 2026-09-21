@@ -366,20 +366,3 @@ function supprimerPiece(btn) {
 
 </body>
 </html>
-<!-- Bloc Assistant Robot IA -->
-<div class="piece-card" style="background: #eff6ff; border-left: 4px solid #2563eb; margin: 15px 0; padding: 15px; border-radius: 8px;">
-    <div style="display: flex; align-items: center; margin-bottom: 8px;">
-        <i class="fas fa-robot" style="font-size: 24px; color: #2563eb; margin-right: 10px;"></i>
-        <h4 style="margin: 0; color: #1e3a8a;">Robot Assistant IA</h4>
-    </div>
-    <p id="robot-message" style="margin: 0; font-size: 14px; color: #334155;">
-        Bonjour ! Je suis ton assistant thermique. Clique sur le bouton pour m'écouter.
-    </p>
-    <button onclick="robot.dire('Bonjour Ombena, les déperditions de ton bâtiment sont analysées avec succès.')" style="margin-top: 10px; background: #2563eb; color: white; border: none; padding: 8px 14px; border-radius: 4px; font-size: 12px; cursor: pointer;">
-        <i class="fas fa-volume-up"></i> Écouter le robot
-    </button>
-</div>
-
-<!-- Lien vers ton fichier séparé robot.js -->
-<script src="{{ url_for('static', filename='robot.js') }}"></script>
-
